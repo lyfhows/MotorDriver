@@ -5457,10 +5457,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dca")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef1")
 		)
 		(instances
 			(project "MotorDriver"
@@ -5902,10 +5902,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dcb")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef2")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6066,10 +6066,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2c")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442088")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6082,7 +6082,7 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:L298N")
-		(at 121.92 67.31 0)
+		(at 123.19 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6093,7 +6093,7 @@
 		(fields_autoplaced yes)
 		(uuid "1302df4c-b262-498c-af0d-4d1846dc0851")
 		(property "Reference" "U1"
-			(at 126.6033 46.99 0)
+			(at 127.8733 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,7 +6104,7 @@
 			)
 		)
 		(property "Value" "L298N"
-			(at 126.6033 49.53 0)
+			(at 127.8733 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6115,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x5.08mm_StaggerOdd_Lead4.58mm_Vertical"
-			(at 123.19 83.82 0)
+			(at 124.46 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6127,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
-			(at 125.73 60.96 0)
+			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6138,7 @@
 			)
 		)
 		(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
-			(at 121.92 67.31 0)
+			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,10 +6270,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dcc")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef3")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6522,10 +6522,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2d")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442089")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6710,10 +6710,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dcd")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef4")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6792,10 +6792,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2e")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208a")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6874,10 +6874,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2f")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208b")
 		)
 		(instances
 			(project "MotorDriver"
@@ -6956,10 +6956,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dce")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef5")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7038,10 +7038,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd30")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208c")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7276,10 +7276,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd31")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208d")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7464,7 +7464,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8a")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7543,10 +7543,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dcf")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef6")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7705,10 +7705,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd32")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208e")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7787,10 +7787,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd0")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef7")
 		)
 		(instances
 			(project "MotorDriver"
@@ -7869,10 +7869,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd33")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444208f")
 		)
 		(instances
 			(project "MotorDriver"
@@ -8031,10 +8031,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd34")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442090")
 		)
 		(instances
 			(project "MotorDriver"
@@ -8193,10 +8193,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd35")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442091")
 		)
 		(instances
 			(project "MotorDriver"
@@ -8529,10 +8529,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd36")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442092")
 		)
 		(instances
 			(project "MotorDriver"
@@ -8811,10 +8811,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd1")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef8")
 		)
 		(instances
 			(project "MotorDriver"
@@ -8893,10 +8893,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd37")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442093")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9057,10 +9057,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd2")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef9")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9139,10 +9139,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5423f2aa-4fb7-4515-8084-6827671bbfac")
+			(uuid "5423f2aa-4fb7-4515-8084-6827671bbfad")
 		)
 		(pin "2"
-			(uuid "b33bebe0-0bb2-4d13-ba93-87d5660d8f35")
+			(uuid "b33bebe0-0bb2-4d13-ba93-87d5660d8f36")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9383,10 +9383,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd38")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442094")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9545,7 +9545,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8b")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9706,10 +9706,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd39")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442095")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9906,10 +9906,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd3")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965befa")
 		)
 		(instances
 			(project "MotorDriver"
@@ -9988,10 +9988,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "117b995d-e3e5-4954-ab9c-318b9e95320d")
+			(uuid "117b995d-e3e5-4954-ab9c-318b9e95320e")
 		)
 		(pin "2"
-			(uuid "a1f6c394-b28c-483f-b73c-6f698e76120c")
+			(uuid "a1f6c394-b28c-483f-b73c-6f698e76120d")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10235,10 +10235,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3a")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442096")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10317,10 +10317,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3b")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442097")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10399,10 +10399,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd4")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965befb")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10479,10 +10479,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5040c46c-6c69-4527-89ab-8e1492900e78")
+			(uuid "5040c46c-6c69-4527-89ab-8e1492900e79")
 		)
 		(pin "1"
-			(uuid "581f3ba6-04fa-44b2-a4f3-15cc9b59544c")
+			(uuid "581f3ba6-04fa-44b2-a4f3-15cc9b59544d")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10561,10 +10561,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3c")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442098")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10723,10 +10723,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "117b995d-e3e5-4954-ab9c-318b9e95320d")
+			(uuid "117b995d-e3e5-4954-ab9c-318b9e95320f")
 		)
 		(pin "2"
-			(uuid "a1f6c394-b28c-483f-b73c-6f698e76120c")
+			(uuid "a1f6c394-b28c-483f-b73c-6f698e76120e")
 		)
 		(instances
 			(project "MotorDriver"
@@ -10805,10 +10805,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3d")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba4442099")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11123,10 +11123,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd5")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965befc")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11205,10 +11205,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3e")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209a")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11287,10 +11287,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd3f")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209b")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11369,7 +11369,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8c")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11524,10 +11524,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd6")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965befd")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11606,10 +11606,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd40")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209c")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11793,7 +11793,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8d")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11872,10 +11872,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd41")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209d")
 		)
 		(instances
 			(project "MotorDriver"
@@ -11954,10 +11954,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd42")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209e")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12036,10 +12036,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd43")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba444209f")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12194,10 +12194,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd7")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965befe")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12374,10 +12374,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd44")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba44420a0")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12456,7 +12456,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8e")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12615,7 +12615,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc8f")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12694,10 +12694,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd8")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965beff")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12865,7 +12865,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc89")
+			(uuid "0f125c59-17c2-4a5d-8e1e-f37ac281cc90")
 		)
 		(instances
 			(project "MotorDriver"
@@ -12944,10 +12944,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd2b")
+			(uuid "93ca76ef-75b5-41df-b021-13eaee81dd45")
 		)
 		(pin "2"
-			(uuid "3915db61-3ca5-4b37-b088-c40ba4442087")
+			(uuid "3915db61-3ca5-4b37-b088-c40ba44420a1")
 		)
 		(instances
 			(project "MotorDriver"
@@ -13026,10 +13026,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dc9")
+			(uuid "41d78ec5-62c8-4788-b0c6-1b4f997d5dd9")
 		)
 		(pin "2"
-			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bef0")
+			(uuid "f8cbe080-0622-4c36-8fa2-5cef7965bf00")
 		)
 		(instances
 			(project "MotorDriver"
