@@ -2,7 +2,6 @@
 
 A custom KiCad PCB built around the **L298N** dual H-bridge. It improves on the common red L298N module with Schottky flyback diodes, reverse-polarity and surge protection, an onboard logic supply, voltage / current / power monitoring over I2C, and a hardware overcurrent limit that works without firmware.
 
-> **Status: design stage.** The schematic and placement are complete, but the board has not yet been fabricated or tested. Check every IC pinout and footprint against the manufacturer datasheets before ordering PCBs.
 
 ---
 
@@ -204,16 +203,20 @@ Ceramic capacitors lose capacitance under DC bias, so keep C5 and C6 in 1206 or 
 
 The bus-voltage reading on U6 and U7 is meaningless (they see only millivolts), so ignore it.
 
+## Schematic Layout
+
+<img width="2095" height="1480" alt="image" src="https://github.com/user-attachments/assets/3842dff2-c950-4329-9155-9324080a7138" />
+
+
 ## PCB layout
 
-The board is 110 × 90 mm. The placement follows these principles:
+<img width="446" height="1453" alt="image" src="https://github.com/user-attachments/assets/e193c517-19d0-410e-aec2-553e901ccf4f" />
 
-- **Left edge:** battery connector, fuse, MOSFET, supply shunt, bulk capacitor and TVS, in the order the current flows
-- **Centre:** the L298N with its heatsink below it, the control-input resistors above its pins, and the shunts at the two end pins
-- **Top edge:** motor terminals J2 and J3 at the corners, with the control and I2C headers J4 and J5 between them
-- **Flyback diodes:** in columns right beside the OUT pins
-- **Bottom left:** the buck converter and the LDO, away from the sensing circuits
-- **Bottom edge:** the test points
+## PCB 3D view
+
+<img width="478" height="1616" alt="image" src="https://github.com/user-attachments/assets/e71902a7-adf7-4740-b3c2-cabc2ca2b9b2" />
+
+
 
 ### Layout rules used
 
@@ -227,15 +230,6 @@ The board is 110 × 90 mm. The placement follows these principles:
 | Part spacing | About 2 mm, for hand soldering |
 | Mounting holes | 5 mm copper-free clearance |
 
-1. **Place fixed parts first:** board outline, holes, connectors, L298N and heatsink space.
-2. **Follow the current path:** each part next to the one it connects to.
-3. **Keep switching loops small:** flyback diodes right at the OUT pins; buck SW node, L1 and the capacitors in one tight group.
-4. **Decouple at the pins:** C2 and C3 at the L298N's pins 4 and 9, and 100 nF at every IC supply pin.
-5. **Separate noisy and sensitive circuits:** keep the INA226 and comparator inputs away from the buck, the motor outputs and the heatsink.
-6. **Use one solid ground pour,** and keep motor return current out of the sensing area.
-7. **Kelvin sense connections:** run each INA226's sense traces as a thin pair from the inside of the shunt pads, separate from the power copper, and take IN− from the shunt's own ground pad.
-8. **Thermal:** give the L298N, Q1 and the shunts copper area and thermal vias. Leave room for air around the heatsink.
-9. **Route in order:** power and motor outputs first, then sense pairs, then control signals and I2C.
 
 ## Bring-up procedure
 
@@ -316,7 +310,7 @@ void loop() {
 }
 ```
 
-The `Serial.printf` call works on ESP32. On boards that lack it, format the output with `Serial.print` instead.
+
 
 Set the undervoltage alert limit in U2's mask/enable and alert-limit registers to suit your battery chemistry.
 
@@ -333,24 +327,6 @@ Set the undervoltage alert limit in U2's mask/enable and alert-limit registers t
 - **Hardest part to hand-solder:** the three VSSOP-10 INA226 chips.
 - **Not yet built or tested.**
 
-## Suggested repository structure
-
-```
-.
-├── README.md
-├── LICENSE
-├── hardware/
-│   ├── l298n-driver.kicad_pro
-│   ├── l298n-driver.kicad_sch
-│   ├── l298n-driver.kicad_pcb
-│   └── gerbers/
-├── docs/
-│   ├── schematic.pdf
-│   ├── bom.csv
-│   └── images/
-└── firmware/
-    └── ina226_example/
-```
 
 ## Design decisions
 
@@ -366,8 +342,8 @@ Set the undervoltage alert limit in U2's mask/enable and alert-limit registers t
 
 ## License
 
-Add a license before publishing. For open hardware, common choices are CERN-OHL-P (permissive) or CERN-OHL-S (share-alike) for the board files, and MIT for any firmware.
+MIT License
 
 ## Author
 
-Your name here.
+Abhinav Pentyala
